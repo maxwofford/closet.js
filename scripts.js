@@ -94,6 +94,8 @@ uploader.addEventListener('change', (event) => {
   }
 
   uploader.style.visibility = 'hidden'
+  ctx.canvas.width = window.innerWidth
+  ctx.canvas.height = window.innerHeight
 
   let fileURL = URL.createObjectURL(file)
   player.src = fileURL

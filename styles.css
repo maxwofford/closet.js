@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-.slider, .player {
+.slider, .canvas {
   display: inline;
   width: 100%;
 }
